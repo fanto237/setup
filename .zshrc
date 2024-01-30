@@ -53,9 +53,3 @@ alias pip='pip.exe'
 alias docker='docker.exe'
 alias docker-compose='docker-compose.exe'
 alias dl='clean-dl.sh -y'
-# bun completions
-[ -s "/root/.bun/_bun" ] && source "/root/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
