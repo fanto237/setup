@@ -141,4 +141,3 @@ config.color_scheme = 'Night Owl (Gogh)'
 -- -----------------------------
 -- and finally, return the configuration to wezterm
 return config
-    
