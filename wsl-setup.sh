@@ -16,9 +16,6 @@ RED='\033[0;31m'  # Red Color
 BLUE='\033[0;34m' # Blue Color
 NC='\033[0m'      # No Color
 
-# set up the root as default user for the wsl
-# ubuntu2004.exe config --default-user root
-
 # *** Install latest ubuntu packages ***
 echo -e "${BLUE}Updating ubuntu packages${NC}"
 sudo apt update && sudo apt upgrade -y
