@@ -40,7 +40,7 @@ getExtensionType() {
 }
 
 # Array of image file extensions
-image_extensions=("jpg" "jpeg" "png" "gif" "bmp")
+image_extensions=("jpg" "jpeg" "png" "gif" "bmp" "svg")
 
 # Array of video file extensions
 video_extensions=("mp4" "avi" "mkv" "mov" "wmv")
