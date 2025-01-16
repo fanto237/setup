@@ -67,6 +67,14 @@ setup_linux() {
   sleep 5
 
   # *** installing dev dependencies
+  echo -e "${BLUE}Installing dev dependencies${NC}"
+  sudo apt install build-essential -y
+  sleep 5
+
+  # installing .NET
+  install_dotnet
+  sleep 5
+
   # install node
   install_node_js
   sleep 5
@@ -182,6 +190,16 @@ setup_working_dir() {
   else
     mkdir repos
   fi
+}
+
+install_dotnet() {
+  echo -e "${BLUE}Installing .NET${NC}"
+  sudo apt-get update
+  wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb
+  sudo dpkg -i packages-microsoft-prod.deb
+  sudo apt-get update
+  sudo apt-get install -y dotnet-sdk-8.0
+  sleep 5
 }
 
 # Main script execution
