@@ -204,9 +204,9 @@ install_dotnet() {
 
 # Main script execution
 echo "Select setup option:"
-echo "1. Ubuntu"
+echo "1. Windows Subsystem for Linux"
 echo "2. Windows Terminal"
-echo "3. Windows Subsystem for Linux"
+echo "3. Ubuntu"
 read -p "Enter your choice (1-3): " choice
 
 case "$choice" in
