@@ -1,6 +1,6 @@
 # WSL Setup
 
-A script i wrote to quickly setup wsl instance.
+A script i wrote to quickly setup wsl instance as well as git bash windows shell.
 
 ## Table of Contents
 - [WSL Setup](#wsl-setup)
@@ -19,33 +19,36 @@ A script i wrote to quickly setup wsl instance.
 ```
 project-root/
 ├─ .p10k.zsh
-├─ .vimrc
+├─ clean-dl.sh
 ├─ .zshrc
-├─ lsd_0.23.1_amd64.deb
+├─ .wezterm.lua
+├─ fancontroll.json
 └─ README.md
 ```
 
 
 - `.p10k.zsh`: [p10k](https://github.com/romkatv/powerlevel10k) config file.
-- `.vimrc`: vim config file.
-- `.zshrc/`: zsh config file.
-- `lsd_0.23.1_amd64.deb`: debian package for [lsd](https://github.com/lsd-rs/lsd).
+- `clean-dl.sh`: bash script for cleaning up my Windows ***Downloads*** directory
+- `.zshrc/`: [zsh](https://en.wikipedia.org/wiki/Z_shell) config file.
+- `.wezterm.lua`: [wezterm](https://wezfurlong.org/wezterm/index.html) config file.
+- `fancontroll.json`: [fancontroll](https://getfancontrol.com/)
 - `README.md`: This README file.
 
 ## Installation
 
 ### Prerequisites
-Before going ahead, make sure you computer is running a Linux based os.
+The script is made to suit my needs so it has to be customize for what you are looking for. Check out the `setup.sh` script and modify it depending on your needs :).
+
 ### Getting Started
 
 - First of all you have to clone the repo by running:
 ```
-git clone https://github.com/fanto98/wsl-setup.git
+git clone https://github.com/fanto98/setup.git
 ```
 
 - Then change to the directory:
 ```
-cd ./wsl-setup
+cd ./setup
 ```
 
 ## Usage
@@ -53,7 +56,7 @@ cd ./wsl-setup
 For setting up the vm you have to run the `setup.sh` script in the **Home Directory**.
 
 - Copy `setup.sh` to the home directory: `cp setup.sh ~`
-- Make `setup.sh` executable: `chmod u-x setup.sh`
+- Make `setup.sh` executable: `chmod u+x setup.sh`
 - Run the scrip: `./setup.sh`
 
 ## Contributing
