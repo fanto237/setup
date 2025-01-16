@@ -1,0 +1,412 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": {
+                "value": "\/Date(1737050571000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Thursday, January 16, 2025 7:02:51 PM"
+            },
+            "Manifests": 1356
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1737045130000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Thursday, January 16, 2025 5:32:10 PM"
+            },
+            "Manifests": 2118
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": {
+                "value": "\/Date(1737045575000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Thursday, January 16, 2025 5:39:35 PM"
+            },
+            "Manifests": 476
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1735892848000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Friday, January 3, 2025 9:27:28 AM"
+            },
+            "Manifests": 345
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": {
+                "value": "\/Date(1737045542000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Thursday, January 16, 2025 5:39:02 PM"
+            },
+            "Manifests": 127
+        },
+        {
+            "Name": "java",
+            "Source": "https://github.com/ScoopInstaller/Java",
+            "Updated": {
+                "value": "\/Date(1736914828000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Wednesday, January 15, 2025 5:20:28 AM"
+            },
+            "Manifests": 294
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": {
+                "value": "\/Date(1737044941000)\/",
+                "DisplayHint": 2,
+                "DateTime": "Thursday, January 16, 2025 5:29:01 PM"
+            },
+            "Manifests": 335
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "24.09",
+            "Updated": "\/Date(1736105589850)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "anki",
+            "Version": "24.11",
+            "Updated": "\/Date(1736105650857)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "aria2",
+            "Version": "1.37.0-1",
+            "Updated": "\/Date(1724430814592)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "audacity",
+            "Version": "3.7.1",
+            "Updated": "\/Date(1736105662282)\/"
+        },
+        {
+            "Info": "",
+            "Source": "versions",
+            "Name": "bun-canary",
+            "Version": "1.1.22-canary.1+dbd320ccf",
+            "Updated": "\/Date(1722432140748)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "calibre",
+            "Version": "7.24.0",
+            "Updated": "\/Date(1736578069986)\/"
+        },
+        {
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "ComicShannsMono-NF",
+            "Version": "3.3.0",
+            "Updated": "\/Date(1732024119610)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dark",
+            "Version": "3.14",
+            "Updated": "\/Date(1708883658436)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "ddu",
+            "Version": "18.0.8.9",
+            "Updated": "\/Date(1736105749337)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "discord",
+            "Version": "1.0.9156-20",
+            "Updated": "\/Date(1725361891582)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "everything",
+            "Version": "1.4.1.1026",
+            "Updated": "\/Date(1722750813732)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "fancontrol",
+            "Version": "210",
+            "Updated": "\/Date(1736105757956)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "7.1",
+            "Updated": "\/Date(1728475272366)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "flux",
+            "Version": "4.134",
+            "Updated": "\/Date(1709743534767)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "foxit-reader",
+            "Version": "2024.4.0",
+            "Updated": "\/Date(1736578247985)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "freedownloadmanager",
+            "Version": "6.25.0.6016",
+            "Updated": "\/Date(1737053007677)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.47.1",
+            "Updated": "\/Date(1732619696480)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "greenshot",
+            "Version": "1.2.10.6",
+            "Updated": "\/Date(1720013178209)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "handbrake",
+            "Version": "1.9.0",
+            "Updated": "\/Date(1736105770689)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "hwmonitor",
+            "Version": "1.55",
+            "Updated": "\/Date(1728475275728)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "1.76",
+            "Updated": "\/Date(1731404644089)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "jabref",
+            "Version": "5.15",
+            "Updated": "\/Date(1720776716699)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "libreoffice",
+            "Version": "24.8.4",
+            "Updated": "\/Date(1736105993018)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "lsd",
+            "Version": "1.1.5",
+            "Updated": "\/Date(1724406809363)\/"
+        },
+        {
+            "Info": "",
+            "Source": "java",
+            "Name": "microsoft-jdk",
+            "Version": "21.0.5",
+            "Updated": "\/Date(1731404923079)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "nextcloud",
+            "Version": "3.15.3",
+            "Updated": "\/Date(1736578097136)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nodejs",
+            "Version": "23.6.0",
+            "Updated": "\/Date(1736578105827)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "nssm",
+            "Version": "2.24-103",
+            "Updated": "\/Date(1716966146129)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "obs-studio",
+            "Version": "31.0.0",
+            "Updated": "\/Date(1736106098796)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "obsidian",
+            "Version": "1.7.7",
+            "Updated": "\/Date(1732024324685)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "pdfsam",
+            "Version": "5.2.9",
+            "Updated": "\/Date(1731405019424)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "portfolio-performance",
+            "Version": "0.73.0",
+            "Updated": "\/Date(1736106131415)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "powertoys",
+            "Version": "0.87.1",
+            "Updated": "\/Date(1736106194423)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "python",
+            "Version": "3.13.1",
+            "Updated": "\/Date(1736106848123)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "revouninstaller",
+            "Version": "2.5.7",
+            "Updated": "\/Date(1736106852204)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rider",
+            "Version": "2024.3.3-243.22562.250",
+            "Updated": "\/Date(1736107175076)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rufus",
+            "Version": "4.6",
+            "Updated": "\/Date(1732024732954)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sourcetree",
+            "Version": "3.4.21",
+            "Updated": "\/Date(1732024730392)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sumatrapdf",
+            "Version": "3.5.2",
+            "Updated": "\/Date(1701472252972)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "tectonic",
+            "Version": "0.15.0",
+            "Updated": "\/Date(1714055013724)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vibrance-gui",
+            "Version": "2.3",
+            "Updated": "\/Date(1718027327156)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vlc",
+            "Version": "3.0.21",
+            "Updated": "\/Date(1718049537515)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.96.2",
+            "Updated": "\/Date(1736107211700)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "webtorrent",
+            "Version": "0.24.0",
+            "Updated": "\/Date(1708173313935)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wezterm",
+            "Version": "20240203-110809-5046fc22",
+            "Updated": "\/Date(1707119751743)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "windows-iso-downloader",
+            "Version": "8.46",
+            "Updated": "\/Date(1716642513544)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "youtube-music",
+            "Version": "3.7.1",
+            "Updated": "\/Date(1736107250842)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "yubioath",
+            "Version": "7.1.1",
+            "Updated": "\/Date(1732024722692)\/"
+        }
+    ]
+}
