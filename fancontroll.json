@@ -1,0 +1,606 @@
+{
+  "__VERSION__": "210",
+  "Main": {
+    "Controls": [
+      {
+        "Calibration": [
+          [
+            10,
+            592
+          ],
+          [
+            20,
+            595
+          ],
+          [
+            30,
+            848
+          ],
+          [
+            40,
+            1065
+          ],
+          [
+            50,
+            1244
+          ],
+          [
+            60,
+            1414
+          ],
+          [
+            70,
+            1563
+          ],
+          [
+            80,
+            1699
+          ],
+          [
+            90,
+            1822
+          ],
+          [
+            100,
+            1951
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 0,
+        "MinimumPercent": 0,
+        "Name": "Fan #1",
+        "NickName": "Ventillos",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/0",
+          "IsHidden": false,
+          "Name": "Fan #1",
+          "NickName": "Ventillos"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU Kühlung",
+          "OneWayHysteresis": false,
+          "Points": [
+            "49.5,20",
+            "63.6,40.161777777777786",
+            "70.22128754825951,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/intelcpu/0/temperature/16",
+            "IsHidden": false,
+            "Name": "CPU Package",
+            "NickName": "CPU Package"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            404
+          ],
+          [
+            10,
+            537
+          ],
+          [
+            20,
+            759
+          ],
+          [
+            30,
+            974
+          ],
+          [
+            40,
+            1199
+          ],
+          [
+            50,
+            1404
+          ],
+          [
+            60,
+            1633
+          ],
+          [
+            70,
+            1844
+          ],
+          [
+            80,
+            2059
+          ],
+          [
+            90,
+            2276
+          ],
+          [
+            100,
+            2505
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #2",
+        "NickName": "VRM",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/1",
+          "IsHidden": false,
+          "Name": "Fan #2",
+          "NickName": "VRM"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU Kühlung",
+          "OneWayHysteresis": false,
+          "Points": [
+            "49.5,20",
+            "63.6,40.161777777777786",
+            "70.22128754825951,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/intelcpu/0/temperature/16",
+            "IsHidden": false,
+            "Name": "CPU Package",
+            "NickName": "CPU Package"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/2",
+        "IsHidden": true,
+        "ManualControl": true,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #3",
+        "NickName": "Fan #3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/3",
+        "IsHidden": true,
+        "ManualControl": true,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #4",
+        "NickName": "Fan #4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/4",
+        "IsHidden": true,
+        "ManualControl": true,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #5",
+        "NickName": "Fan #5",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            1487
+          ],
+          [
+            10,
+            1488
+          ],
+          [
+            20,
+            1862
+          ],
+          [
+            30,
+            2275
+          ],
+          [
+            40,
+            2644
+          ],
+          [
+            50,
+            3020
+          ],
+          [
+            60,
+            3422
+          ],
+          [
+            70,
+            3808
+          ],
+          [
+            80,
+            4180
+          ],
+          [
+            90,
+            4189
+          ],
+          [
+            100,
+            4193
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/5",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Fan #6",
+        "NickName": "Pump",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6798d/fan/5",
+          "IsHidden": false,
+          "Name": "Fan #6",
+          "NickName": "Pump"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU Kühlung",
+          "OneWayHysteresis": false,
+          "Points": [
+            "49.5,20",
+            "63.6,40.161777777777786",
+            "70.22128754825951,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/intelcpu/0/temperature/16",
+            "IsHidden": false,
+            "Name": "CPU Package",
+            "NickName": "CPU Package"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            496
+          ],
+          [
+            20,
+            499
+          ],
+          [
+            30,
+            685
+          ],
+          [
+            40,
+            1114
+          ],
+          [
+            50,
+            1464
+          ],
+          [
+            60,
+            1802
+          ],
+          [
+            70,
+            2165
+          ],
+          [
+            80,
+            2542
+          ],
+          [
+            90,
+            2863
+          ],
+          [
+            100,
+            3284
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/control",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - AMD Radeon RX 7800 XT",
+        "NickName": "GPU",
+        "PairedFanSensor": {
+          "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/fan",
+          "IsHidden": false,
+          "Name": "Fan 1 - AMD Radeon RX 7800 XT",
+          "NickName": "GPU"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "GPU Sens",
+          "OneWayHysteresis": false,
+          "Points": [
+            "55,20",
+            "60.020088515019296,50.72088888888889",
+            "69.9074045010829,71.25422222222221",
+            "75.4,89.65422222222222"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/temp/GPU",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 9,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [],
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/nct6798d/control/6",
+        "IsHidden": true,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan #7",
+        "NickName": "Fan #7",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      }
+    ],
+    "CustomSensors": [],
+    "Fahrenheit": false,
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "CPU Kühlung",
+        "OneWayHysteresis": false,
+        "Points": [
+          "49.5,20",
+          "63.6,40.161777777777786",
+          "70.22128754825951,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/intelcpu/0/temperature/16",
+          "IsHidden": false,
+          "Name": "CPU Package",
+          "NickName": "CPU Package"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "GPU Sens",
+        "OneWayHysteresis": false,
+        "Points": [
+          "55,20",
+          "60.020088515019296,50.72088888888889",
+          "69.9074045010829,71.25422222222221",
+          "75.4,89.65422222222222"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/temp/GPU",
+          "IsHidden": false,
+          "Name": "GPU",
+          "NickName": "GPU"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IsHidden": false,
+        "Name": "Max",
+        "Percent": 100.0
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6798d/fan/0",
+        "IsHidden": false,
+        "Name": "Fan #1",
+        "NickName": "Ventillos"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/1",
+        "IsHidden": false,
+        "Name": "Fan #2",
+        "NickName": "VRM"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/2",
+        "IsHidden": true,
+        "Name": "Fan #3",
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/3",
+        "IsHidden": true,
+        "Name": "Fan #4",
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/5",
+        "IsHidden": false,
+        "Name": "Fan #6",
+        "NickName": "Pump"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/6",
+        "IsHidden": false,
+        "Name": "Fan #7",
+        "NickName": "Fan #7"
+      },
+      {
+        "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/fan",
+        "IsHidden": false,
+        "Name": "Fan 1 - AMD Radeon RX 7800 XT",
+        "NickName": "GPU"
+      },
+      {
+        "Identifier": "/lpc/nct6798d/fan/4",
+        "IsHidden": true,
+        "Name": "Fan #5",
+        "NickName": "Fan #5"
+      }
+    ],
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF87A2AF",
+    "SecondaryColor": "#FFC6FF00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": null,
+    "TrayIcons": [
+      {
+        "Color": "#FF09FF00",
+        "SensorId": {
+          "Identifier": "/intelcpu/0/temperature/16",
+          "IsHidden": false,
+          "Name": "CPU Package",
+          "NickName": "CPU Package"
+        }
+      },
+      {
+        "Color": "#FFFF0000",
+        "SensorId": {
+          "Identifier": "ADLX/AMD Radeon RX 7800 XT/768/temp/GPU",
+          "IsHidden": false,
+          "Name": "GPU",
+          "NickName": "GPU"
+        }
+      }
+    ]
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 56
+  }
+}
