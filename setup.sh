@@ -28,7 +28,7 @@ setup_windows() {
   sleep 5
 
   # *** Install zsh
-  setup_zsh
+  setup_zsh "wezterm"
   sleep 5
 
   # restore scoop packages
@@ -39,7 +39,7 @@ setup_windows() {
   # ask if fancontroll config should be copy
   read -p "Do you want to copy the fancontrol config? (y/n): "
   if [[ $REPLY =~ ^[Yy]$ ]]; then
-    cp fancontroll.sjon ~/scoop/apps/fancontroll/current/Configurations
+    cp fancontroll.json ~/scoop/apps/fancontrol/current/Configurations
   fi
 }
 
@@ -95,41 +95,44 @@ setup_linux() {
 install_scoop() {
   # Install scoop
   echo -e "${BLUE}Installing scoop${NC}"
-  Powershell
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+  Powershell -Command Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  Powershell -Command Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
   sleep 5
-  exit
 }
 
 setup_zsh() {
   echo -e "${BLUE}Setting up zsh and its plugings${NC}"
 
   echo -e "${RED}cloning p10k${NC}"
-  git clone https://github.com/romkatv/powerlevel10k.git .zsh/.plugins/powerlevel10k
+  git clone https://github.com/romkatv/powerlevel10k.git ~/.zsh/.plugins/powerlevel10k
 
   echo -e "${RED}cloning zsh-completion${NC}"
-  git clone https://github.com/zsh-users/zsh-completions.git .zsh/.plugins/zsh-completions
+  git clone https://github.com/zsh-users/zsh-completions.git ~/.zsh/.plugins/zsh-completions
 
   echo -e "${RED}cloning zsh-syntax-highlighting${NC}"
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git .zsh/.plugins/zsh-syntax-highlighting
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/.plugins/zsh-syntax-highlighting
 
   echo -e "${RED}cloning zsh-autosuggestions${NC}"
-  git clone https://github.com/zsh-users/zsh-autosuggestions.git .zsh/.plugins/zsh-autosuggestions
+  git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/.plugins/zsh-autosuggestions
 
   echo -e "${RED}All Plugins have been cloned and added to zsh plugins directory${NC}"
 
-  mv .zshrc ~
-  mv .p10k.zsh ~
+  cp .zshrc ~
+  cp .p10k.zsh ~
 
   echo -e "${RED}The zshrc file has been moved to the home directory${NC}"
 
+  # copy wezterm config and setup zsh as default shell
+  if [[ $1 == "wezterm" ]]; then
+    cp .wezterm.lua ~
+    echo -e 'if [ -t 1 ]; then\n  exec zsh\nfi' > ~/.bashrc
+  fi 
+
+  # install zsh from apt repo
   if [[ $1 == "wsl" ]]; then
-    mv .wezterm.lua ~
-  else
     echo -e "${BLUE}Installing zsh${NC}"
     sudo apt install zsh -y
-    mv clean-dl.sh ~
+    cp clean-dl.sh ~
   fi
 }
 
