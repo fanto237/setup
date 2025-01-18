@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-HOST_USERNAME=$(cmd.exe /c "echo %USERNAME%")
+HOST_USERNAME=$(whoami)
 
 
 # The following lines were added by compinstall
